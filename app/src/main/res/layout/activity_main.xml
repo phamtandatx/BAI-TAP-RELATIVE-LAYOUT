@@ -6,44 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <TextView
+        android:textColor="#F6FAFA"
         android:layout_centerHorizontal="true"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:background="#946A30"
+        android:background="#ED0829"
         android:id="@+id/View-Top"
         android:textSize="30sp"
         android:text="Top content Here"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textColor="#F6FAFA"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:background="#946A30"
+        android:background="#949391"
         android:id="@+id/View-bottom"
         android:textSize="30sp"
         android:text="Bottom content Here"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textColor="#F6FAFA"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_centerInParent="true"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:background="#946A30"
+        android:background="#3485EE"
         android:id="@+id/View-Second"
         android:textSize="30sp"
         android:text="Second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
+        android:textColor="#F6FAFA"
+        android:layout_alignBottom="@+id/View-Second"
         android:layout_toRightOf="@+id/View-Second"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:background="#946A30"
+        android:background="#CCA53A"
         android:id="@+id/View-Three"
         android:textSize="30sp"
         android:text="Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#F6FAFA"
+        android:layout_alignBottom="@+id/View-Second"
+        android:layout_toLeftOf="@+id/View-Second"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#24E436"
+        android:id="@+id/View-First"
+        android:textSize="30sp"
+        android:text="First"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
